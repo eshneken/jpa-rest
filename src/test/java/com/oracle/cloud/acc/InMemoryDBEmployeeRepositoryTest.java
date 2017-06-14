@@ -49,7 +49,7 @@ public class InMemoryDBEmployeeRepositoryTest {
     @Test
     public void getSingleEmployeeTest() {
         String id = "007";
-        String name = "Abhishek Gupta";
+        String name = "Ed Shnekendorf";
         
         Employee emp = cut.get(id);
         assertNotNull("Employee was null!", emp);
